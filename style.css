@@ -1,0 +1,202 @@
+body {
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;    
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.flexbox-container {
+    height: auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexbox-item {
+    border: none;    
+}
+
+.flexbox-item-1 {
+    background-color: black;
+    color: white;
+    height: 0px;
+    width: 1000px;
+    margin: 10px;
+}
+
+.flexbox-item-1 h1 {
+    float: left;
+    margin-left: 10px;
+}
+
+.nav {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    margin-top: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.flexbox-item-2 {
+    height: 350px;
+    width: 1100px;
+    text-align: center;
+}
+
+.flexbox-item-2 img {
+    width: auto;
+    height: 400px;
+    margin-left: 0px;
+    position: relative;
+    width: 1100px;
+    z-index: -1;
+   
+}
+
+.flexbox-item-2 p {
+    top: -350px;
+    position: relative;
+    color: white;
+    font-size: 100px;
+    text-shadow: 
+        -1px 1px 2px black,
+        1px 1px 0 black,
+        1px -1px 0 black,
+        -1px -1px 0 black;    
+}
+
+.flexbox-item-3 {
+    height: 775px;
+    width: 1100px;
+    color:black;
+    font-size: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    margin: 40px 0px 30px 190px;
+}
+
+.container {
+    border: 1px solid black;
+    width: 700px;
+    height: 25px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+hr {
+    width: 700px;
+}
+
+.allshows {
+    width: 750px;
+    margin-left: 175px;
+
+}
+
+.shows img {
+    width: 150px;
+    height: 150px;
+}
+
+.shows {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+button {
+    height: 30px;
+    width: 85px;
+    background-color: orange;
+    border: 1px solid black;
+    color: white;
+}
+
+.flexbox-item-4 {
+    height: 50px;
+    width: 1100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30xp;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.map {
+    width: 250px;
+}
+
+.mapimg {
+    width: 150px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.foothead {
+    font-size: 40px;
+}
+
+.tiny {
+    margin: 10px;
+}
+
+
